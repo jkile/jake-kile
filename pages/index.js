@@ -1,3 +1,7 @@
+import Genres from "../components/business/Genres/Genres";
+import Hero from "../components/business/Hero/Hero";
+import Bio from "../components/business/Bio/Bio";
+import Container from "../components/layout/Container/Container";
 import H1 from "../components/typography/H1/H1";
 import H2 from "../components/typography/H2/H2";
 import H3 from "../components/typography/H3/H3";
@@ -11,11 +15,16 @@ import Card from "../components/ui/Card/Card";
 import ImageIcon from "../components/ui/ImageIcon/ImageIcon";
 import TextArea from "../components/ui/TextArea/TextArea";
 import TextInput from "../components/ui/TextInput/TextInput";
+import Contact from "../components/business/Contact/Contact";
 
 export default function IndexPage() {
   return (
     <body className="bg-black h-screen">
-      <div className="flex flex-wrap p-4">
+      <Hero />
+      <Bio />
+      <Genres />
+      <Contact />
+      {/* <div className="flex flex-wrap p-4">
         <div className="flex flex-col space-y-4 mx-4">
           <div>
             <Button onClick={() => console.log("test")} >This is a Test</Button>
@@ -133,7 +142,7 @@ export default function IndexPage() {
             </div>
           </Card>
         </div>
-      </div>
+      </div> */}
 
 
     </body>

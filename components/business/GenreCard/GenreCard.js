@@ -15,7 +15,7 @@ export default function GenreCard(props) {
                 <Card >
                     <div className="flex flex-col space-y-4">
                         <div className="flex items-center space-x-4">
-                            <ImageIcon src={props.imageSrc} />
+                            {/* <ImageIcon src={props.imageSrc} /> */}
                             <div>
                                 <H5 className="font-semibold" color="gray-100">{props.header}</H5>
                                 {/* <H6 color="gray-300">Test Title</H6> */}

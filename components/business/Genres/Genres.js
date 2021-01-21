@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from '../../layout/Container/Container';
 import GenreCard from "../GenreCard/GenreCard";
+import Link from "next/link";
 
 export default function Genres() {
 
@@ -8,20 +9,24 @@ export default function Genres() {
         {
             imageSrc: "",
             header: "Coding + Algorithms",
-            text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, quo!",
-            buttonColor: "primary"
+            text: "Take a look at my GitHub and see some of the projects I've worked on! Soon I will add a more in depth section but my starred repos will suffice for now!",
+            buttonColor: "primary",
+            link: <a href="https://www.github.com/jkile">See More</a>
+
         },
         {
             imageSrc: "",
-            header: "Audio Engineering",
-            text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, quo!",
-            buttonColor: "secondary"
+            header: "Photos + Designs",
+            text: "Here is a general repo of photos I've taken and sites I've designed. It is not beautifully organized quite yet, but will be in time. For now it serves as a nice mood board.",
+            buttonColor: "secondary",
+            link: <Link href="/mood">See More</Link>
         },
         {
             imageSrc: "",
             header: "Sounds + Music",
-            text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, quo!",
-            buttonColor: "tertiary"
+            text: "Listen to some of the tunes I've made over the years on Bandcamp! There's lots to explore in there and soon there will be more in the way of collaborations!",
+            buttonColor: "tertiary",
+            link: <a href="https://groveparkway.bandcamp.com/">See More</a>
         }
     ]
 
@@ -34,7 +39,9 @@ export default function Genres() {
                         header={item.header}
                         text={item.text}
                         buttonColor={item.buttonColor}
-                    />
+                    >
+                        {item.link}
+                    </GenreCard>
                 }
                 )}
             </div>

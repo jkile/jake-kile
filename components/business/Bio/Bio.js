@@ -13,7 +13,9 @@ export default function Bio() {
                     <div className="flex flex-col space-y-4">
                         <H3 color="white" className="font-bold" size="6xl"> A bit about me...</H3>
                         <Text color="gray-400" size="lg" className="max-w-sm md:max-w-md lg:max-w-lg">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nam sunt ex a animi omnis tenetur! Vitae enim labore nam quis nihil nemo soluta facilis odit temporibus hic et eveniet, magnam porro blanditiis modi quisquam accusantium accusamus deserunt, cupiditate distinctio quia. Tempora adipisci, accusamus amet vitae quis nihil alias deleniti?
+                           I like to get my hands into a bit of everything. I appreciate simple design and displaying information clearly and concisely (as you may be able to tell). When I am not creating software or websites,
+                           you can often find me recording music, writing code generate music, helping other folks record their music, taking photos, learning about new gizmos and gadgets, and finding time to learn something new as much
+                           as I possibly can. Take a look at some of my work! There's a pretty wide breadth and I'm sure you'll find something that will be of interest to you.
                         </Text>
                     </div>
                     <ImageIcon src="/assets/tree.png" size={256} className="object-cover lg:w-80 lg:h-80" />

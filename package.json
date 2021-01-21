@@ -11,8 +11,7 @@
     "classnames": "^2.2.6",
     "next": "latest",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "tailwindcss-classnames": "^2.0.0"
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "autoprefixer": "10.0.2",

@@ -1,5 +1,5 @@
 import React from 'react';
-import classnames from "tailwindcss-classnames";
+import classnames from "classnames";
 
 //<Text size="md" color="gray-800" padding={0}> This is a Test </ Text>
 

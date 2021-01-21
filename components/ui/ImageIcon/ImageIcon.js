@@ -4,7 +4,7 @@ import classnames from "classnames";
 
 export default function ImageIcon(props) {
     return (
-        <Image width={props.size || 64} height={props.size || 64}
+        <img
             src={props.src ? props.src : `https://source.unsplash.com/random/${props.size ? props.size + "x" + props.size : "64x64"}`}
             alt=""
             className={classnames(`

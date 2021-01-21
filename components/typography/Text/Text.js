@@ -8,7 +8,7 @@ export default function Text(props) {
         <p className={classnames(`
             text-${props.size} 
             p-${props.padding ? props.padding : "0"} 
-            text-${props.color ? props.color : "gray-600"}
+            text-gray-400
             ${props.className} font-mono`)}
         >
             {props.children}

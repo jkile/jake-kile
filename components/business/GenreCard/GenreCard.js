@@ -25,7 +25,7 @@ export default function GenreCard(props) {
                             {props.text}
                         </Text>
                         <div>
-                            <Button size="2" color={props.buttonColor}> {props.children} </Button>
+                            <Button  color={props.buttonColor}> {props.children} </Button>
                         </div>
                     </div>
                 </Card>

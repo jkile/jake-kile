@@ -6,8 +6,8 @@ import classnames from "classnames";
 export default function H1(props) {
     return (
         <h1 className={classnames(`
-            text-${props.size ? props.size : "7xl"} 
-            text-${props.color ? props.color : "gray-800"}
+            text-7xl
+            text-white
             p-${props.padding ? props.padding : "0"} 
             ${props.className}`)}
         >

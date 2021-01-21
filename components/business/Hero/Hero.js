@@ -10,8 +10,8 @@ export default function Hero() {
         <Container className="pt-16 lg:pt-32">
             <div className="flex flex-col-reverse lg:flex-row lg:space-x-2 lg:justify-between">
                 <div>
-                    <H1 color="white" className="font-bold">Hello,</H1>
-                    <H2 color="white" className="font-bold pb-6">my name is Jake,
+                    <H1 className="font-bold">Hello,</H1>
+                    <H2 className="font-bold pb-6">my name is Jake,
                         <br />
                         and I am a:
                         <span className="text-gradient-400 flex flex-col font-mono">

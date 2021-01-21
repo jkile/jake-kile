@@ -11,8 +11,8 @@ export default function Card(props) {
     return (
         <div
             className={classnames(`
-            bg-${props.color ? props.color : "transparent"} 
-            p-${props.padding ? props.padding : "4"}
+            bg-transparent
+            p-4
             border border-gray-300 shadow-md rounded-xl`)}
         >
             {props.children}

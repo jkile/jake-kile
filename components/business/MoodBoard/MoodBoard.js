@@ -35,6 +35,10 @@ export default function MoodBoard() {
                         <img className="rounded-xl" src="/assets/anm_design.jpg" alt="ANM Dog Rescue Design"/>
                         <H6 className="font-semibold font-mono pt-4">ANM Dog Rescue Design</H6>
                     </div>
+                    <div className="pt-6 max-w-lg">
+                        <img className="rounded-xl" src="/assets/saguaro_recovery_design.jpg" alt="Saguaro Recovery Design"/>
+                        <H6 className="font-semibold font-mono pt-4">Saguary Recovery Design</H6>
+                    </div>
                 </div>
                 <H2 className="font-bold">Photos</H2>
                 <div className="flex flex-col space-y-4 py-12">

@@ -11,15 +11,20 @@ export default function Hero() {
             <div className="flex flex-col-reverse lg:flex-row lg:space-x-2 lg:justify-between">
                 <div>
                     <H1 className="font-bold">Hello,</H1>
-                    <H2 className="font-bold pb-6">my name is Jake,
+                    <H2 className="font-bold pb-6 block">my name is Jake,
                         <br />
                         and I am a:
-                        <span className="text-gradient-400 flex flex-col font-mono">
+                        <span className="text-gradient-400 font-mono block">
                             <span>software engineer,</span>
+                            <br/>
                             <span>web developer,</span>
+                            <br/>
                             <span>audio engineer,</span>
+                            <br/>
                             <span>artist,</span>
+                            <br/>
                             <span>musician,</span>
+                            <br/>
                             <span>and tinkerer.</span>
                             <br />
                         </span>
